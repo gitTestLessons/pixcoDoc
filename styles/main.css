@@ -1,0 +1,88 @@
+/*General*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*Features*/
+.features{
+text-align: center;
+padding: 170px 0px;
+}
+.title {
+    color: rgb(61, 79, 159);
+    font-weight: 500;
+}
+.title h2{
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.title p{
+    font-size: 24px;
+    margin: 0 0 94px;
+}
+.cards {
+   display: flex;
+   gap: 67px;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-bottom: 142px;
+}
+.item {
+    width: 140px;
+}
+.item img{
+    margin-bottom: 30px;
+}
+.item h3{
+    color: rgb(64, 116, 248);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 34px;
+}
+.item p{
+    color: rgb(173, 179, 203);
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+}
+.buttons {
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.buttons-readmore {
+    background: rgb(255, 215, 215);
+    color: rgb(212, 63, 63);
+}
+.buttons-getstarted {
+    background: rgb(210, 225, 255);
+    color: rgb(58, 121, 255);
+}
+
